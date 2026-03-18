@@ -1,0 +1,15 @@
+# 舒尔特方格助手 V2 依赖库
+# 高性能版 - 使用模板匹配进行超高速识别
+
+# 核心依赖
+pyautogui>=0.9.54
+keyboard>=0.13.5
+Pillow>=9.0.0
+opencv-python>=4.5.0
+numpy>=1.21.0
+
+# 快速截图（比 ImageGrab 快 3-5 倍）
+mss>=9.0.1
+
+# OCR 引擎（仅用于首次模板采集）
+rapidocr-onnxruntime>=1.3.0
